@@ -3,7 +3,7 @@ name:  CI/CD
 on: [push]
 jobs:
   publish:
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/staging'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
