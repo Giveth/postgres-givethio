@@ -1,9 +1,7 @@
 name:  CI/CD
 
 on: [push]
-
 jobs:
-
   publish:
     if: github.ref == 'refs/heads/master'
     needs: test
