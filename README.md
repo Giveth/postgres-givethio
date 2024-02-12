@@ -1,6 +1,6 @@
 ## Postgres givethio
 
-We needed a postgres docker image with enabled pg_cron so we wrote and publish this docker image 
+We needed a postgres docker image with enabled pg_cron and pg_trgm so we wrote and publish this docker image 
 to use it in https://github.com/Giveth/impact-graph
 
 related PR in impact-graph https://github.com/Giveth/impact-graph/pull/658
